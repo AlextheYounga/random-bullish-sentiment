@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require custom
+//= require generator
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .

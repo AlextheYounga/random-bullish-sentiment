@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+
+.container {
+    margin-top: 15%;
+
+    h1 {
+        font-family: Apple SD Gothic Neo;
+    }
+    
+    .generator {
+        transform: translateY(50%);
+
+        p {
+            font-family: Apple SD Gothic Neo;
+        }
+
+    }
+
+}

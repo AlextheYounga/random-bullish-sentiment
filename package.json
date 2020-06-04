@@ -1,5 +1,11 @@
 {
   "name": "randombullishsentiment",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "4.2.2",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
 }
