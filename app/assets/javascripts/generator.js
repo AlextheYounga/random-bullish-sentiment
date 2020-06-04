@@ -31,11 +31,11 @@ function insert(str) {
                 'Jim Cramer',
                 'Keith McCullough',
             ],
-            'things': [
-                'The Sun',
-                'A looter',
-                'A random homeless person',
-            ],
+            // 'things': [
+            //     'The Sun',
+            //     'A looter',
+            //     'A random homeless person',
+            // ],
             'places': [
                 'Earth',
                 'California',
@@ -55,7 +55,6 @@ function insert(str) {
                 'Australia',
                 'Spain',
                 'Mexico',
-                'Indonesia',
                 'Turkey',
                 'Netherlands',
                 'Saudi Arabia',
@@ -76,28 +75,21 @@ function insert(str) {
                 'Ireland',
                 'Denmark',
                 'Singapore',
-                'Malaysia',
-                'Colombia',
-                'Philippines',
-                'Pakistan',
-                'Chile',
-                'Finland',
                 'Bangladesh',
                 'Egypt',
                 'Vietnam',
                 'Portugal',
-                'Romania',
                 'Peru',
                 'New Zealand',
                 'Greece',
             ],
-            'entities': [
-                'The Fed',
-                'ZeroHedge',
-                'CNBC',
-                'Bloomberg',
-                'Reuters',
-            ],
+            // 'entities': [
+            //     'The Fed',
+            //     'ZeroHedge',
+            //     'CNBC',
+            //     'Bloomberg',
+            //     'Reuters',
+            // ],
             'business': [
                 'Tesla',
                 '3M',
@@ -154,9 +146,9 @@ function insert(str) {
 
     function generatePredicate(subject, category) {
         var predicates = {
-            'things': [
-                '%s exploded.',
-            ],
+            // 'things': [
+            //     '%s exploded.',
+            // ],
             'business': [
                 '%s was looted.',
                 '%s has filed for bankrupcty.',
@@ -173,11 +165,11 @@ function insert(str) {
                 '%s exploded.',
                 '%s says will start beating people unless pe ratio reaches one million.',
             ],
-            'entities': [
-                '%s exploded.',
-                '%s gave me covid 19.',
-                '%s was looted.',
-            ],
+            // 'entities': [
+            //     '%s exploded.',
+            //     '%s gave me covid 19.',
+            //     '%s was looted.',
+            // ],
             'people': [
                 '%s contracted covid 19.',
                 '%s was beaten by police with night sticks.',
